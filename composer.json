@@ -1,0 +1,29 @@
+{
+    "name": "chimit/prompt",
+    "description": "Manage AI prompts in Blade style.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "prompts",
+        "blade",
+        "ai"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Chimit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chimit",
+            "email": "chimit@users.noreply.github.com",
+            "homepage": "https://chimit.me"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "illuminate/filesystem": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "illuminate/view": "^9.0 || ^10.0 || ^11.0 || ^12.0"
+    }
+}
