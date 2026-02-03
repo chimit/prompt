@@ -9,12 +9,19 @@
         "blade",
         "ai"
     ],
-    "autoload": {
-        "psr-4": {
-            "Chimit\\": "src/"
-        }
-    },
-    "authors": [
+  "autoload": {
+    "psr-4": {
+      "Chimit\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Chimit\\PromptServiceProvider"
+      ]
+    }
+  },
+  "authors": [
         {
             "name": "chimit",
             "email": "chimit@users.noreply.github.com",
